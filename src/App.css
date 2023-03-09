@@ -1,3 +1,17 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'teko-semibold';
+  src: url(./Teko/Teko-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'teko-light';
+  src: url(./Teko/Teko-Light.ttf);
+}
+
+/* --------------------------------------  REACT STYLES  -----------------------------------  */
+
 .App {
   text-align: center;
 }
@@ -36,3 +50,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* --------------------------------------   NAVBAR STYLES   ---------------------------  */
+
+.container-fluid{
+  background-color: #09192f !important;
+}
+
+.offcanvas{
+  background-color: #09192f !important;
+}
+
+.navbar{
+  padding: 0 !important;
+}
+
+.name{
+  font-family: 'teko-semibold';
+  font-size: 30px;
+  color: white;
+}
+
+.navItems{
+  font-family: 'teko-light';
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.navItems:hover{
+  color: #64ffda;
+  scale: 1.1;
+}
+
+.navbar-brand a{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.navbar-light .navbar-toggler{
+  border: 1px solid white;
+}
+
+
+.navbar-light .navbar-toggler-icon{
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
