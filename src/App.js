@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import YouTube from 'react-youtube';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/navegation/NavBar';
 import Home from './components/web-pages/Home';

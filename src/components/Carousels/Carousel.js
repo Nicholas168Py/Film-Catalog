@@ -7,15 +7,15 @@ function UncontrolledExample() {
                 <img
                     className="d-block w-100"
                     src="./images/creed-3.jpg"
-                    alt="First slide"
+                    alt="Creed III"
                 />
             </Carousel.Item>
 
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="./images/puss-in-boots.jpg"
-                    alt="Second slide"
+                    src="./images/scream-6.jpg"
+                    alt="Scream 6"
                 />
             </Carousel.Item>
 
@@ -23,7 +23,15 @@ function UncontrolledExample() {
                 <img
                     className="d-block w-100"
                     src="./images/Quantumania.jpg"
-                    alt="Third slide"
+                    alt="Ant-man and the Wasp Quantumania"
+                />
+            </Carousel.Item>
+
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="./images/al-borde.jpg"
+                    alt="65 Al Borde de la Extinción"
                 />
             </Carousel.Item>
         </Carousel>

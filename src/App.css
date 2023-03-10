@@ -2,12 +2,33 @@
 
 @font-face {
   font-family: 'teko-semibold';
-  src: url(./Teko/Teko-SemiBold.ttf);
+  src: url(./Fonts/Teko/Teko-SemiBold.ttf);
 }
 
 @font-face {
   font-family: 'teko-light';
-  src: url(./Teko/Teko-Light.ttf);
+  src: url(./Fonts/Teko/Teko-Light.ttf);
+}
+
+@font-face {
+  font-family: 'calibre';
+  src: url(./Fonts/Calibre/Calibre-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url(./Fonts/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'san-francisco';
+  src: url(./Fonts/San-Francisco/SFNSText-Regular.otf);
+}
+
+/* -----------------------------------------  VARIABLES  ----------------------------------- */
+
+body{
+  --font-sans: 'calibre', 'inter', 'sanFrancisco';
 }
 
 /* --------------------------------------  REACT STYLES  -----------------------------------  */
@@ -99,5 +120,33 @@ a{
 
 .navbar-light .navbar-toggler-icon{
   background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+/*  -------------------------------------------- SEARCH STYLES ------------------------------------ */
+
+.search{
+  background-color: #09192f;
+  padding: 20px;
+  font-family: var(--font-sans);
+}
+
+.search button{
+  background-color: #61dafb;
+  font-family: var(--font-sans);
+  padding-top: 12px;
+  color: black;
+}
+
+/* ----------------------------------------  CAROUSEL STYLES ------------------------------------- */
+
+.carousel-indicators button{
+  display: none;
+}
+
+/* -------------------------------------------  CARDS STYLE ----------------------------------- */
+
+
+.card{
+  margin: 15px;
 }
 
