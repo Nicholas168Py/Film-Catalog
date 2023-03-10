@@ -1,17 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Carousel from '../Carousels/Carousel';
 import Search from '../navegation/Search';
-import { AllMovies } from '../cards/Cards';
+import { PopularMovies } from '../cards/Cards-popular';
 
-const Home = () => {
-
+const Popular = () => {
   return (
     <React.Fragment>
       <Search />
       <Carousel />
-      <AllMovies />
+      <PopularMovies />
     </React.Fragment>
   )
 }
 
-export default Home
+export default Popular

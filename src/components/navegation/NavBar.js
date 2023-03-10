@@ -47,7 +47,7 @@ const NavBar = ()=>{
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <Link className='navItems' to='/'>Home</Link>
                             <Link className='navItems' to='/PreSale'>PreSale</Link>
-                            <Link className='navItems' to='/ComingSoon'>ComingSoon</Link>
+                            <Link className='navItems' to='/Popular'>Popular</Link>
                         </Nav><Form className="d-flex d-sm-none ">
                         <Form.Control
                             type="search"
